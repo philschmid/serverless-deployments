@@ -6,4 +6,11 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+# internal
 serverless_deploy = { path = "../serverless_deploy" }
+# utils
+anyhow = "1"
+clap = { version = "4.0.7", features = ["derive"] }
+tokio = { version = "1.18.2", features = ["full"] }
+tracing = "0.1.36"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
