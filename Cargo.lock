@@ -1055,6 +1055,8 @@ dependencies = [
  "aws-sdk-lambda",
  "aws-types",
  "tokio",
+ "tracing",
+ "tracing-subscriber",
 ]
 
 [[package]]
